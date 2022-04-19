@@ -1,0 +1,70 @@
+*Customer Analytics* 
+
+análise exploratória
+análise descritiva
+análise causal
+
+
+roi - return on investment (retorno sobre investimento)
+
+get data from customers using surveys
+
+	mobile survey - in situ (na hora da compra, não semanas depois)
+			é possível adaptar a survey com base no contexto do cliente (local em que ele está, etc.)
+			não é interessante mandar várias surveys para o mesmo cliente
+
+
+como montar uma survey
+	perguntas com respostas categóricas ordenadas (insatisfeito, satisfeito, muito satisfeito)
+	perguntas comparativas (com base nas outras empresas, nosso serviço foi melhor ou pior?)
+	ranks (ordene as características do serviço em grau de importância para você: preço, qualidade, design)
+	comparação par a par (qual dos dois produtos você prefere? honda/toyota, carro/moto)
+	agree-disagree scale (o quanto você concorda com a afirmação?)
+	escala contínua de aprovação (comum em surveys feitas por meio eletrônico)
+
+	antes de implementar a survey:
+		os tipos das questões ajudam a conseguir alcançar o objetivo da survey?
+			os dados a serem coletados apresentam validade preditiva?
+			os dados a serem coletados são confiáveis? (não podem variar muito numa próxima survey)
+
+		a survey pode ser avaliada usando esses dois conceitos: validade e confiabilidade
+
+
+pontos negativos e positivos de surveys:
+	positivos:
+		baixo custo, fácil de implementar, boa forma de aprender sobre potenciais consumidores
+
+	negativos:
+		difícil projetar uma survey que não seja enviesada
+		difícil selecionar as pessoas corretas para responder a survey
+		não é boa para avaliar produtos que precisam ser usados (nesse caso, a survey é aplicada após o uso do produto, em focus groups, por exemplo)
+
+
+
+net promoter score
+	promotores - 9 ou 10
+	passivos  - 7 ou 8
+	detratores - 0 a 6
+
+	NPS = porcentagem de promotores - porcentagem de detratores 
+
+
+	NPS correlaciona com a lucratividade da empresa
+		curva de satisfação e lucratividade
+
+quando fizer qualquer tipo de pesquisa, pense:
+	qual informação estou capturando, exatamente?
+	como essa métrica se compara a outras métricas?
+	como essa métrica se relaciona aos resultados pelos quais estamos interessados?
+
+
+---
+
+projeto de desenvolvimento de pesquisa
+
+	0. certifique-se que seus resultados são generalizáveis à população
+
+
+---
+	
+

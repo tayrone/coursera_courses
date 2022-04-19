@@ -1,0 +1,45 @@
+* análise prescritiva *
+
+objetivo: fazer uma recomendação (prescrição) do que fazer para atingir um certo objetivo
+	por exemplo: mudar o comportamento de um certo tipo de cliente
+
+	temos:
+		o objetivo
+		as ações que devem ser feitas para atingir o objetivo
+		e o modelo: que descreve como as ações nos aproximam do objetivo
+
+	
+qual o preço do produto que maximiza sua margem de lucro?
+
+é preciso aumentar o preço até que o ganho no lucro seja zero
+
+quando a mudança no faturamento for igual à mudança no custo, esse é o preço ótimo
+
+princípio MR = MC
+
+
+- estrutura de mercado
+	
+	disposição a pagar (DAP) (willingness to pay - WTP) é o preço máximo pelo qual o consumidor irá, definitivamente, pagar por uma unidade (adicional) do produto.
+
+	é comum que produtos sejam oferecidos em um pacote, com um valor promocional (por ex., hambúrguer + batata + refrigerante).
+	
+	se a soma dos DAPs do consumidor, para a quantidade de produtos no pacote, for menor ou igual ao valor do pacote, ele irá comprá-lo.
+
+	a venda de produtos em pacote tem como intuito aumentar o lucro. existe a possibilidade de usar um pacote ótimo que irá obter um lucro ótimo.
+
+
+
+no contexto de uma análise prescritiva, é muito importante fazer as perguntas corretas
+	quais suposições nós fizemos antes da análise, para fazê-la?
+		um fator que às vezes não levamos em conta é a concorrência:
+			se nós baixamos o preço de um produto, a concorrência provavelmente vai baixar também (isso é chamado de interação estratégica, em teoria dos jogos)
+
+
+extra: publicidade online
+	proporção de cliques (CTR - click through rate)
+		porcentagem de pessoas expostas ao anúncio que clicaram nele
+
+	se a empresa mostrar o mesmo anúncio em vários canais, a CTR tender a crescer de acordo com o número de canais
+	
+

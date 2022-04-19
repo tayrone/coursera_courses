@@ -1,0 +1,35 @@
+
+* Análise preditiva *
+
+
+RFM
+	recência, frequência e valor monetário
+
+	é usado para definir o valor de um cliente
+
+	recência é mais importante que frequência, que é mais important que valor monetário
+
+
+
+como fazer projeções sobre não só o próximo período (para o qual você utilizaria regressão)?
+
+	use um modelo de probabilidade!
+
+	modelo "buy till you die"
+
+	esse modelo tem o intuito de prever o valor de tempo de vida do cliente (lifetime value), que é uma previsão do lucro líquido atribuído a todo relacionamento futuro com o cliente.
+
+	esse modelo faz suas previsões com base na regência e frequência de compras passadas
+
+
+
+additional readings:
+	Valuing Subscription-Based Businesses Using Publicly Disclosed Customer Data
+		texto: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2701093
+		video: https://www.youtube.com/watch?v=QHQo606fgxQ
+
+
+	Customer Centricity
+		livro: https://s3.amazonaws.com/kw-wdp/epubs/20150912-WDP-Fader-CustomerCentricity_Chapter4_CourseraCustomerAnalytics001.pdf
+		texto: https://www.forbes.com/sites/blakemorgan/2016/01/26/customer-centricity-with-whartons-dr-peter-fader/?sh=53a458036aaa
+	

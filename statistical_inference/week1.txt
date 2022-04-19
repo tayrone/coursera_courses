@@ -1,0 +1,9 @@
+exercícios no swirl
+
+a inferência estatística permite definir conclusões sobre uma população a partir de um conjunto de dados incompleto (amostra), onde o nível de incerteza das conclusões deve ser levado em conta
+
+uma estatística é um valor calculado a partir de uma amostra de dados. nós definimos estatísticas para inferir informação sobre uma população
+
+uma variável aleatória representa um resultado de um experimento
+
+processos determinísticos, como a definição da média ou da variância de uma variável aleatória, produzem outras variáveis aleatórias com suas próprias distribuições. é importante saber se você está falando sobre a distribuição da variável inicial ou sobre a distribuição de uma certa estatística.

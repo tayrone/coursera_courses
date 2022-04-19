@@ -1,0 +1,92 @@
+aplicações de análises de dados para negócios no marketing
+
+lucro, numa perspectiva financeira: faturamento - custo (visão centrada no produto)
+
+na perspectiva de marketing e análise de dados para negócios: 
+	quanto de lucro eu consigo a partir de cada consumidor? depois disso, soma  os valores de todos os consumidor
+
+	alguns consumidores apresentam um lucro negativo para a empresa! (o custo de mantê-los é maior que o faturamento que eles provêem
+
+
+
+a análise de dados do cliente (customer analytics) se refere à coleta, manejo, análise e ao aproveitamento estratégico de dados granulares (ou seja, separados por indivíduo, nesse caso) referentes ao comportamento dos clientes
+
+
+a análise de dados de clientes pode ser definida como:
+	
+	inerentemente granular (tem foco no completamente individual)
+	comportamental (tem foco em padrões de comportamento)
+	voltada para o futuro (tem foco em predição, não apenas descrição)
+	multi-plataforma (tem foco em combinar comportamentos medidos por diferentes sistemas)
+	amplamente aplicável (a definição de "cliente" é neutra à indústria do negócio, podendo ser um leitor, usuário, visitante, etc.)
+	multidisciplinar (é um campo que usa diferentes disciplinas, como ciência da computação, estatísticas, marketing, ciência da informação, pesquisa operacional, etc.)
+
+
+
+se os dados que você tem estão em nível de loja, por exemplo, isso não permite que você faça análise de dados de *cliente*
+
+	esse tipo de dado (a nível de loja) era comum na década de 50, mas pode ser a realidade de alguns analistas nos dias de hoje. dados a nível de cliente são mais interessantes (mais granulares) e são mais comuns nos dias de hoje
+
+	nas décadas de 60 e 70, os dados comuns eram dados de compras por correio (a empresa envia a propaganda por correio e registra a compra, caso exista)
+
+	a partir da década de 80, os dados individuais se tornaram comuns, com o pagamento por cartão de crédito
+
+	a partir dos anos 90, a internet permitiu empresas coletarem dados individuais com mais frequência (pesquisas, cliques em site, etc)
+
+
+
+brand equity: é o valor social de uma marca (empresas mais conhecidas faturam mais pelo simples fato de serem mais conhecidas)
+
+
+
+uma prática interessante é ligar as compras do cliente online às compras do mesmo cliente offline (através de um cartão fidelidade ou cupom de desconto, por exemplo)
+
+
+
+pontos de audiência bruta (gross rating points - GRP)
+
+
+	GRP(%) = 100 * alcance * frequência média do anúncio
+	
+		se uma média de 12% de uma população viu todos os episódios de uma série, e o anúncio foi colocado em 3 episódios, então o GRP é de 60.
+	
+	
+	GRP(%) = 100 * número de impressões/tamanho da população
+	
+		se 50% da população viu três episódios com anúncio, isso totaliza 150 GRPs. ou seja, o anúncio foi visto num total de vezes equivalente a 150% da população
+
+	
+
+canais de anúncio não canibalizam entre si no longo prazo. mesmo que eles se canibalizem em alguns períodos de tempo, o volume de seus anúncios aumenta no total.
+
+
+redes sociais e anúncios online tem resultados melhores no curto prazo
+anúncios em televisão tem resultados melhores no longo prazo
+
+
+
+
+existe uma relação entre olhar um produto e considerá-lo, lembrar do produto e comprá-lo
+
+
+churn = número de pessoas que desistiram do serviço - número de pessoas que contrataram o serviço (considerando um certo período de tempo)
+
+modelos de churn são um tipo extremamente importante de modelo preditivo para análise de dados de consumidor
+
+
+
+o curso expõe cinco pontos principais:
+
+os melhores dados possíveis
+exploração dos dados
+predição do futuro
+otimizar de acordo com o futuro
+fazer decisões usando o futuro
+
+
+
+leitura adicional: the power of data 
+	https://knowledge.wharton.upenn.edu/article/finding-the-right-tool-to-unlock-the-power-of-data/
+ 
+
+	
