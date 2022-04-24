@@ -1,0 +1,58 @@
+computador
+
+combinação de hardware, software e dados que são usados para resolver problemas de seres humanos
+
+CPU
+memória
+	RAM - volátil, o CPU a acessa mais rápida que o disco rígido
+		a CPU copia os dados do disco rígido para a RAM
+	disco rígido - permanente, mais lenta que a RAM
+	cash
+	registradores
+
+
+como a CPU acessa programas presentes no HD?
+
+se o programa (P1) está presente na RAM, a CPU o acessa na RAM.
+
+senão, o programa é copiado do HD para a RAM, e depois a CPU o acessa pela RAM
+
+acessar a RAM é mais rápido, porém mais custoso, do que acessar o HD
+
+
+
+
+funções do sistema operacional são responsáveis por alocar a CPU a processos
+	essas funções definem a ordem da alocação
+
+a principal atividade de um sistema operacional agir como um alocador de recursos para os processos. essa atividade é chamada de escalonamento de processos. o OS é um programa que age como alocador de recursos. esse programa vai sempre estar carregado na memória RAM.
+
+
+primeiro, o programa é compilado e depois convertido em código de máquina 
+
+depois disso, ele vai estar sempre armazenado no HD. para ser executado pela CPU, o programa é primeiro carregado na RAM. depois de concluída a execução, ele é completamente removido da RAM.
+
+todos os dispositivos de entrada/saída tem um buffer associado (memória ou registrador)
+
+a CPU tem duas unidades (unidade de controle e unidade lógica e aritmética - ULA)
+
+
+digamos que uma calculadora recebe valores pelo teclado para realizar uma soma
+os valores são inicialmente colocador no buffer do dispositivo de entrada (teclado) e depois são movidos para a RAM
+depois, a CPU tira esses valores da RAM e coloca em seus buffers
+a ULA da CPU realiza os cálculos e coloca o resultado na RAM
+depois disso, o resultado é colocado no buffer do dispositivo de saída para a impressão
+
+
+a CPU (unidade central de processamento) é responsável por executar os programa linha por linha
+	executa operações lógicas e aritméticas, além de entrada e saída de dados
+
+
+estados da execução de um programa
+	executando
+	esperando (dispositivo de entrada/saída ou outro evento)
+	pronto
+
+turnaround time: tempo total para executar um processo
+
+
