@@ -1,0 +1,75 @@
+quando o usuário deseja iniciar uma aplicação que não está na RAM, é gerada uma cópia da aplicação no HD
+
+essa cópia é chamada de processo
+
+por exemplo, quando o usuário abre o mesmo navegador em duas janelas diferentes, temos dois processos de uma mesma aplicação
+
+em muitos livros, os termos "programa" e "processo" são usados como sinônimos
+
+
+estados de um processo:
+	executando - sendo executado pela CPU
+	pronto - pronto e esperando ser executado pela CPU
+	em espera - esperando algum evento externo ou algum recurso para prosseguir sua execução
+		bloqueado - esperando algum recurso do sistema que não se encontra disponível
+
+
+	novo 
+	pronto
+	executando
+	I/O
+	concluído
+	pronto, suspenso
+	em espera (I/O), suspenso
+
+
+grau de multiprogramação:
+	número máximo de processos que podem se acomodados simultaneamente na RAM
+
+
+tipos de sistemas operacionais
+
+	sistemas batch - grau de multiprogramação é sempre 1
+	sistemas multiprogramados - grau de multiprogramação maior que 1 (uma CPU)
+		melhora a eficiência da CPU
+	sistemas multiprocessados - mais de uma CPU
+	
+
+eficiência da CPU = tempo útil da CPU/tempo total da CPU
+
+
+processamento paralelo
+	mais de uma CPU
+		mais rápido
+		maior custo de processamento
+
+processamento concorrente
+	uma CPU que fica alternando entre os processos
+	
+
+um processo não contém apenas o programa, mas também uma pilha, um heap, *terminar de escrever aqui*
+	chamadas de função e variáveis locais são armazenada na pilha
+
+
+
+bloco de controle de processo (PCB)
+	é uma estrutura de dados que contém todas as informações sobre um processo
+
+atributos do processo
+	id do processo
+	contador do programa - indica a posição atual na sequência de execução de um processo
+	estado do processo
+	registradores de propósito geral
+	prioridade
+	lista de arquivos abertos
+	lista de dispositivos (I/O) abertos
+	proteção
+	
+algoritmos de escalonamento de processos
+	first come first serve
+	shortest job first (se P1 precisa de 3ns e P2 de 5ns para executar, P1 executa primeiro)
+		se um processo de maior prioridade entrar na RAM, o processo atual é parado para o processo que entrou na RAM ser executado
+
+
+
+
