@@ -1,0 +1,55 @@
+todo processo tem um bloco de controle de processo (PCB) e alguns atributos associados (id, arquivos abertos pelo processo, contador, etc)
+
+o escalonados de processos é classificado em escalonados de:
+
+	curto prazo
+		decide quais dos processos que estão prontos na memória RAM devem ser executados pela CPU, depois de uma interrupção, uma chamada de sistema ou outra forma de sinal
+		
+	médio prazo
+		remove processos temporariamente da memória RAM e os coloca em uma memória secundária (como o HD)
+
+	longo prazo
+		decide quais processos devem ser admitidos à fila de processos prontos (ready), na memória RAM
+
+
+
+
+quando um processo é interrompido, seu contexto (PCB e atributos) precisa ser salvo, para sua execução ser continuada depois
+
+
+tempos relacionados a um processo
+	tempo de chegada (ponto no tempo)
+	tempo de execução
+	tempo de conclusão (ponto no tempo)
+	turnaround time
+	tempo de espera
+	tempo de resposta
+	tempo de I/O
+
+
+algoritmos de escalonamento
+	preemptivos: o SO pode interromper a execução de um processo e passá-lo para o estado de pronto para que outro processo de maior prioridade seja executado	
+	
+	não-preemptivos: o SO não interrompe a execução do processo atual, caso um processo de maior prioridade seja identificado na RAM
+
+	os algoritmos de escalonamento são aplicados apenas à processos que estão prontos
+		processos que estão esperando um evento de entrada/saída estão bloqueados, então não podem ser escalonados para execução
+
+
+	
+	shortest job first
+		algoritmo não preemptivo 
+		processos de menor tempo de execução são dados maior prioridade
+		ou seja, é um algoritmo baseado em prioridade
+
+		
+
+tempo de espera = turn around time - tempo de execução
+
+tamanho do escalonamento (schedule length)
+	tempo total para a execução de todos os processos escalonados
+
+throughput
+	número de processos executados por unidade de tempo
+	número de processos escalonados/schedule length
+

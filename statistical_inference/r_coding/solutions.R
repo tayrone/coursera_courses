@@ -32,3 +32,6 @@ mean(smeans)
 1
 2
 
+
+
+

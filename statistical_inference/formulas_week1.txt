@@ -1,0 +1,6 @@
+
+P(AUB) = P(A) + P(B) - P(A∩B)
+
+P(A/B) = P(A∩B)/P(B) = [P(B/A)*P(A)]/P(B)
+
+P(A) = P(A/B)*(B) + P(A/~B)*P(~B)
