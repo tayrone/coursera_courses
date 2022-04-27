@@ -7,3 +7,9 @@ uma estatística é um valor calculado a partir de uma amostra de dados. nós de
 uma variável aleatória representa um resultado de um experimento
 
 processos determinísticos, como a definição da média ou da variância de uma variável aleatória, produzem outras variáveis aleatórias com suas próprias distribuições. é importante saber se você está falando sobre a distribuição da variável inicial ou sobre a distribuição de uma certa estatística.
+
+
+
+valor esperado é o valor médio dos resultados de um experimento, mesmo que esse valor médio seja improvável ou impossível
+
+matematicamente, ele é definido pela a soma dos produtos de todos os resultados possíveis por suas respectivas probabilidades

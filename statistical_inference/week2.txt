@@ -1,0 +1,5 @@
+desvio padrão = raiz quadrada da variância
+
+o desvio padrão está na mesma unidade de medida dos dados
+
+
