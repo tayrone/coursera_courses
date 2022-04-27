@@ -1,0 +1,41 @@
+---- module 5 ----
+
+desvio padrão = raiz quadrada da variância
+
+o desvio padrão está na mesma unidade de medida dos dados
+
+
+
+a variância amostral é uma estimativa da variância da população
+a distribuição da variância amostral é centrada ao redor da estimativa da variância populacional
+a distribuição da variância amostral fica mais concentrada ao redor da estimativa da variância populacional, conforme o tamanho da amostra aumenta (a variância dessa distribuição diminui)
+
+
+
+a média de uma amostra aleatória de uma população é, por si só, uma variável aleatória
+
+E[~X] = u (o valor esperado da média amostral é a própria média da população)
+
+Var(~X) = (σˆ2)/n (a variância da média amostral diminui conforme o tamanho da amostra aumenta)
+
+
+o desvio padrão de uma estatística é chamado de ERRO PADRÃO
+o desvio padrão da distribuição amostral de uma média é chamado de erro padrão da média amostral
+
+o erro padrão da média amostral é dado por S/sqrt(n), onde S é o desvio padrão da população
+
+ou seja, a variância da média amostral é a variância da população dividida por n
+
+
+---- module 6 ----
+
+a distribuição de bernoulli representa um experimento com resultado binário (jogada de uma moeda, por exemplo)
+	sua função massa de probabilidade é dada por:
+		P(X = x) = pˆx * (1-p)^(1-x)
+	sua média é p
+	sua variância é p(1-p)
+
+
+distribuição binomial
+	é a distribuição de probabilidade discreta do número de sucessos em uma sequência de n experimentos independentes, cada um com um resultado binário (sucesso/falha)
+	
