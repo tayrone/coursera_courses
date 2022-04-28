@@ -38,4 +38,19 @@ a distribuição de bernoulli representa um experimento com resultado binário (
 
 distribuição binomial
 	é a distribuição de probabilidade discreta do número de sucessos em uma sequência de n experimentos independentes, cada um com um resultado binário (sucesso/falha)
+
+
+distribuição normal
+	se sua média (μ) é 0, e o desvio padrão (σ) é 1, é chamada de normal padrão
+
+	68, 95 e 98% da área da distribuição normal estão localizados entre 1, 2 e 3 desvios padrão da média (para mais e para menos)
+
+	para calcular a área de parte da distribuição normal, a partir de um valor (que representa uma probabilidade):
+		pnorm(valor, mean, sd, lower.tail = c(T, F)) 
+	
+
+distribuição de Poisson
+	expressa a probabilidade de uma série de eventos ocorrer num certo período de tempo, dados que os eventos ocorrem independente de quando ocorreu o último evento
+
+	sua média e variância são representadas por lambda (λ) (ou seja, são iguais)
 	
