@@ -1,0 +1,43 @@
+conceptual introduction to data engineering
+
+data engineers build data pipelines
+
+chapter 1
+    what is data engineering?
+
+chapter 2
+    hwo data storages work?
+
+chapter 3
+    how to move and process data?
+
+
+on a company, the data workflow is usually:
+
+data collection and storage
+    from web traffic, surveys, extraction
+
+data preparation
+
+exploration and visualization
+
+experimentation and prediction
+
+the role of the data engineer is:
+    deliver correct data in the right form, to the right people, as efficient as possible
+
+big data: data that is so large that, when manipulated, engineers have to consider it size as a feature
+
+five Vs - features of big data 
+    volume, variety, velocity (how frequent do we need to deal with it?), 
+    veracity (accuracy), value (how useful?)
+
+data engineer: strong software skills
+data analyst/scientist: strong analitc skills
+
+
+data pipelines automate steps to provide data how it is supposed to, that is:
+    extracting, transforming, combining, validating and loading (ETL)
+
+    it reduces human intervention, erros and time it takes data to flow 
+
