@@ -40,4 +40,3 @@ data pipelines automate steps to provide data how it is supposed to, that is:
     extracting, transforming, combining, validating and loading (ETL)
 
     it reduces human intervention, erros and time it takes data to flow 
-

@@ -1,0 +1,15 @@
+data processing
+    convert raw data into meaningful information
+
+data processing value
+    remove unwanted data
+    save memory
+    change file formats
+    organize data (from lake to warehouse, let's say)
+    fit data in a certain structure
+
+data engineers role in data processing
+    cleaning and tidying
+    store data in sanely structured databases
+    create views on top of databases
+    make data efficient to retrieve 

@@ -1,0 +1,43 @@
+structured data
+    easy to search and organize
+    consistent structure
+    stored in relational databases
+
+semi-structured data
+    consistent model, less consistent implementation
+        different observations have different sizes
+    can be grouped, but some work is needed for this
+
+    stored in NoSQL databases (usually JSON, XML or YAML file formats)
+
+unstructured data
+    does not follow any model, cannot be contained in rows and columns
+    usually text, sound, pictures or videos
+    usually stored in data lakes
+
+    AI can be used to search and organize unstructured data
+    add some information can make it semi-structured
+
+
+SQL
+    linguagem padrão dos sistema de gerenciamento de banco de dados 
+
+data lake
+    armazena dados não-processados, de diferentes tipos, 
+da forma como foram extraídos de outras origens
+    podem conter petabytes, de tão grandes
+    é necessário manter um catálogo de dados atualizado
+    usados por cientistas para fazer análises de big data, em tempo real 
+
+data warehouse (armazém de dados)
+    armazena dados específicos, para um uso específico 
+    relativamente bem pequenos
+    armazenamento otimizado para análise de dados
+    usado por analistas de dados e de negócio para análises ad-hoc
+    datawarehouse é um TIPO de base de dados
+
+catálogo de dados 
+    descreve dados presentes no data lake 
+        origem, onde é usada, owner dos dados, boas práticas de governância, etc.
+        garante reproducibilidade da forma de manipular os dados
+
