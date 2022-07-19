@@ -24,3 +24,35 @@ data can be processed in batches or streaming
     batches
         can be cheaper
     streaming
+
+
+parallel computing
+    the basis of modern data processing tools
+
+    advantages 
+        memory and processing power
+
+    disadvantages
+        moving data incurs a cost
+        communication between processes
+
+
+cloud computing
+    servers on premises
+        need to be bought
+        need physical space
+        have electrical and maintenance cost
+        processing power is unused at quieter times
+
+    servers on the cloud
+        is rented
+        there is no need for physical space
+        you can only use the resources you need, when you need
+        closer the user, less is the latency
+
+    cloud computing storage:
+        data replication in another location, for backup
+
+    main cloud providers
+    aws, microsoft azure, and google cloud
+
