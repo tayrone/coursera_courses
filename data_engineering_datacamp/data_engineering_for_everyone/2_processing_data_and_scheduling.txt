@@ -13,3 +13,14 @@ data engineers role in data processing
     store data in sanely structured databases
     create views on top of databases
     make data efficient to retrieve 
+
+scheduling
+    is responsible for organizing how tasks will run in a specific order
+
+    three ways of scheduling data
+        manually, at a specific time, or if a condition is met
+
+data can be processed in batches or streaming
+    batches
+        can be cheaper
+    streaming
