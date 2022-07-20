@@ -60,8 +60,9 @@ cloud processing
         aws S3, azuzre blob storage, google cloud storage
         
     computation
-        aws EC2, azure virtual machines, google compute engineer
+        aws EC2, azure virtual machines, google compute engine
 
     databases
         aws RDS, azure SQL database, google cloud SQL
         
+

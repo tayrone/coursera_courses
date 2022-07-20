@@ -1,0 +1,34 @@
+what are databases
+    usually alarge collection of data,
+        organized for rapid search and retrieval
+
+    it holds and organizes data
+
+
+structured data
+    relational databases
+
+semi-structured data
+    e.g., JSON files
+
+unstructured data
+    schemaless, more like files
+    videos, photos
+
+SQL
+    tables, database schema, relational databases
+    e.g., mySQL, PostgreSQL
+
+NoSQL
+    non-relational databases
+    structured or unstructured
+    e.g., redis (key-value stores), mongoDB (document databases)
+
+
+SQL - database schema
+    it defines all tables, variables, 
+        and how tables relate to each other
+
+star schema
+    one or more fact tables referencing any number of dimension tables
+    
