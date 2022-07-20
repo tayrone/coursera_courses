@@ -1,0 +1,67 @@
+what is data engineering
+    the data engineer's task is to make the data scientist's life easier
+    he can:
+        gather data from different sources and into a single database
+        optimize the database for analyses, and not for applications
+        remove corrupt data
+
+    a data engineer can be defined as "an engineer that developes, 
+        constructs,tests and mantains architectures such as databases 
+        and large scale data processing systems"
+
+    data engineer tasks
+        develop scalable data architecture
+        streamline data acquisition
+        set up processes to gather data
+        clean corrupt data
+        he also should be well versed in cloud technology
+
+    data scientist tasks
+        mine data for patterns
+        make statistical modeling
+        apply predictive models using machine learning
+        monitor business processes
+        clean outliers in data
+
+
+
+tools of the data engineer
+    database systems
+        systems that hold large amounts of data
+        they usually support applications
+        can also be built to support analyses
+        e.g., mySQL, postgreSQL
+
+    tools for data processing
+        needed to clean, aggregate and join data from multiple sources
+        usually parallel processing clusters and are applied on this
+        e.g., spark, hive
+
+    scheduling tools
+        assure data move from one place to another at the correct time,
+            in the correct order
+        e.g., airflow, oozie
+
+    an example of data pipeline:
+        the engineer extracts all data from multiple databases,
+            or even APIs for example
+        then transforms it using a cluster computing framework
+        then loads it into an analytic database
+        also, everything is scheduled by an orchestrator (e.g., airflow)
+        
+
+cloud processing
+    it's possible to use the resource when you need, at the amount needed
+
+    the big three providers
+        aws, azure abd google
+
+    storage
+        aws S3, azuzre blob storage, google cloud storage
+        
+    computation
+        aws EC2, azure virtual machines, google compute engineer
+
+    databases
+        aws RDS, azure SQL database, google cloud SQL
+        
