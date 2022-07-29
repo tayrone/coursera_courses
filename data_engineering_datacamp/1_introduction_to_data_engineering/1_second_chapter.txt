@@ -32,3 +32,18 @@ SQL - database schema
 star schema
     one or more fact tables referencing any number of dimension tables
     
+
+
+
+parallel computing
+
+main idea
+    split taskas into subtasks, over severall computers
+
+benefits
+    greater processing power
+    less memory usage by computer
+
+risks
+    necessity for communication between nodes
+    
