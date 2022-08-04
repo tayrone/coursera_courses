@@ -1,0 +1,10 @@
+extraction in data engineering
+    extraction data from persistent storage, that is not suited for
+        data processing, into memory
+
+    we can extract data from  
+        files
+        apis, offering data from the web, commonly in JSON format
+        databases
+
+
