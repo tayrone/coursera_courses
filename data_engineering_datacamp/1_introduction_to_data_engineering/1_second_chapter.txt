@@ -47,3 +47,42 @@ benefits
 risks
     necessity for communication between nodes
     
+
+
+
+parallel computation frameworks
+    hadoop projects
+        map reduce
+            big data processing paradigm
+
+
+        HDFS
+            distributed file system
+            storage systems like S3 now replace HDFS
+
+    spark
+        avoid disk writes, unlike map reduce
+        mantains most possible processing in memory
+
+        relies on RDD (resilient distributed datasets)
+            you can think of them as list of tuples
+
+        transformations
+            .map(), filter()
+        actions
+            .count(), first()
+
+        pyspark is the python interface to spark
+            it uses a data frame abstraction, not SQL
+
+
+
+workflow scheduling frameworks
+
+    DAG (directed acyclic graph)
+        set of nodes
+        directed edges
+        no cycles
+
+    airflow
+        tool for workflow management
