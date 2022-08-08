@@ -1,3 +1,5 @@
+ETL pipeline
+
 extraction in data engineering
     extraction data from persistent storage, that is not suited for
         data processing, into memory
@@ -7,4 +9,10 @@ extraction in data engineering
         apis, offering data from the web, commonly in JSON format
         databases
 
+
+transform
+    selection of attributes 
+    translation of values ('New York' -> 'NY')
+    data validation (remove invalid/empty data)
+    splitting/joining variables
 
