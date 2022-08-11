@@ -16,3 +16,46 @@ transform
     data validation (remove invalid/empty data)
     splitting/joining variables
 
+
+
+load
+
+    databases for analytics and for applications are different,
+        each one optimized for a specific goal
+
+    databases for applications
+        optimized for online transaction processing (OLTP)
+        usually row oriented (observation oriented)
+            easy to add new rows (e.g. adding a new customer)
+
+    databases for analytics
+        optimized for online analytical processing
+        usually column oriented
+        possible to select subsets of columns
+        work better with parallelization
+
+
+massively parallel processing databases (MPP databases)
+    usually a target at the end of an ETL process
+    column oriented databases optimized for analytics
+    queries are split into subtasks and distributed to several nodes
+    exs.: amazon redshift, azure SQL data warehouse, google bigquery
+
+
+    to load data to redshift, it would be ideal to write files to
+        S3, and then send a copy query to redshift
+
+    MPP databases load data best from a columnar storage fromat
+        csv files are not good, for example
+        a formart called parquet is usually used for this purpose
+
+            COPY customer
+            FROM 's3://path/to/bucket/customer.parquet'
+            FORMAT as parquet
+
+        
+
+
+
+
+    
