@@ -55,6 +55,49 @@ massively parallel processing databases (MPP databases)
 
         
 
+ETL pipeline
+
+    it is nice to have the ETL behaviour encapsulated into a 
+        clean etl() function
+
+        one function for extracting, 
+            one for transforming and 
+            one for loading
+
+        then, use these functions inside a single function called etl()
+
+
+    apache airflow
+        workflow scheduler written in python
+
+        it makes possible to represent directed acyclic graphs (DAGS)
+            as python objects
+
+        we can define dependency between tasks in a DAG
+
+        an operator represents a unity of work in airflow
+
+
+        from ariflow.models import DAG
+        from airflow.operators.python_operator import PythonOperator
+
+        dag  = DAG(dag_id = "etl_pipeline", 
+                   schedule_interval = "0 0 * * *")
+                   # this parameter is set using a CRON expression
+
+        etl_task = PythonOperator(task_id = "etl_task",
+                                  python_callable = etl,
+                                  dag = dag)
+
+        etl_task.set_upstream(wait_for_this_task)
+        
+
+
+
+        
+
+    
+
 
 
 
