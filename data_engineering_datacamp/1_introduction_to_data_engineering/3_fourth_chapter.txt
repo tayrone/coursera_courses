@@ -1,0 +1,12 @@
+case study - course ratings at datacamp
+
+    how to recommend courses using ratings
+        get rating data
+        clean and calculate top recommended courses
+        recalculate daily
+        show recomendation on user's dashboard
+
+        it's and ETL process
+        data from application -> cleaning -> calculation -> warehouse
+
+
