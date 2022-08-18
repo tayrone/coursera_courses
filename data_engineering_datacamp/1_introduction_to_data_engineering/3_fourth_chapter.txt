@@ -10,3 +10,28 @@ case study - course ratings at datacamp
         data from application -> cleaning -> calculation -> warehouse
 
 
+
+loading step
+
+    loading the data into a postgres database
+    everything in orchestrated using airflow to make sure the 
+        table is updated daily
+
+
+    recommendations.to_sql(
+        'recommendations',
+        db_engine,
+        if_exists = 'append'
+    )
+
+
+    from airflow.models import DAG
+    from airflow.operators.python_operator import PythonOperator
+
+    dag = DAG(dag_ig = 'recommendations',
+              scheduled_interval = '0 0 * * *')
+
+    task_recommendations = PythonOperator(
+        task_id = 'recommendations_task',
+        python_callable = etl
+    )
