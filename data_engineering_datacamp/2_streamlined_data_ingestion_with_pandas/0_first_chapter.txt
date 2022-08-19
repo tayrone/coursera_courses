@@ -1,0 +1,10 @@
+introduction to flat files
+
+    pandas!
+
+    flat files
+        plain text, no formatting
+        one row per line
+        values separated by delimiter
+
+        
