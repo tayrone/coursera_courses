@@ -35,3 +35,43 @@ the course will be organized in the following themes, with major challenges:
 		measure outcomes well
 	talent management
 		be capable of doing people analytics
+
+
+
+examples of people analytics:
+
+google realized interviewers were not very good at predicting new hires performance
+
+credit suisse believes that a 1% increase in retention can save 75-100 million dollars a year
+
+	they realized that changing jobs internally increases employee "stickiness"
+
+many companies continue to find:
+	
+	better ways to retain key employees
+	more diagnostic methods for hirng
+	who are the most valuable employees
+	how to compose the most productive teams
+
+
+
+performance evaluation
+
+	its purpose is to give feedback at employees so they can, in the end get better at their job
+
+	it's tough to compare employees if not in identical situations, so we begin by assuming all employees are equal ability
+
+	fundamental challenge: performance measures are noisy!
+
+		for any given level of effort, a range of results can happen due to other factors beside employee work (the economy, his boss, team members, etc)	
+
+
+
+extended example
+
+	how many players in the american football nfl make the all star games (pro bowls), by team? 
+
+	are some teams better than others at picking players?
+	
+
+
