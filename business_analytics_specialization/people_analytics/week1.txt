@@ -1,0 +1,37 @@
+people analytics
+
+	to consider people is the most important company asset
+
+	main goal: to inform decisions about how to manage people
+
+	what good performance means?
+	who should we be hiring or promoting?
+	what collaboration patterns look like in the company?
+	if we change salary, what happens?
+
+
+	
+course learning goals
+	to understand:
+
+	how analytics is being used to improve how people are managed
+
+	conceptual foundations for major people decisions
+
+	how to find appropriate data for this kind of analytics
+
+	outlines of more complex approaches on how to analyze these data
+
+	major pitfalls and best practices i people analytics
+
+
+
+the course will be organized in the following themes, with major challenges:
+	performace evaluation
+		calculate random variations versus true difference
+	staffing
+		asses causality
+	collaboration
+		measure outcomes well
+	talent management
+		be capable of doing people analytics
